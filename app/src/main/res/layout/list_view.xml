@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EBDEF0"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="35dp"
+        android:layout_weight="1"
+        android:hint="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/playButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="25dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_play_arrow_black_24dp" />
+</LinearLayout>
